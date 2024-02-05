@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLpaper/home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d8bd72612f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="wholesale.html">Wholesale</a></li>
+                <li><a href="distribution.html">Distribution</a></li>
+                <li><a href="index.html">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+        
+    <div class="container">
+        <div class="row">
+
+            <div class="header-col-2">
+                <div class="header-text">
+                    <p>Crafting Excellence, One Sheet at a Time</p>
+                    <h1>Empowering Your Ideas, <br> <span>PL Paper</span><br>Where Every Page Holds Potential.</h1>
+                    <img src="images/Coronavirus Delivery Preventions (1).gif" alt="">
+                </div>
+
+            </div>
+
+            <div class="header-col-1">
+                <img src="images/distribution-background.jpg" alt="">
+            </div>
+        </div>  
+
+    </div>
+     
+       
+   
+<!------------about--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about-background.gif" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Core Values</h1> 
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Percision Cutting Expertise</p>
+                        <p class="tab-links" onclick="opentab('experience')">Paper Products</p>
+                        <p class="tab-links" onclick="opentab('education')">Distribution</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <p>At the heart of our operations is a state-of-the-art facility 
+                                equipped with cutting-edge technology. We specialize in precision 
+                                paper cutting, ensuring that each roll meets the exact specifications 
+                                of our clients. Whether you require standard sizes or unique shapes, our 
+                                cutting expertise is unparalleled.</p>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <p>Explore a comprehensive range of paper types, each curated to cater 
+                                to diverse industries and applications. From premium quality to specialty 
+                                textures, we offer a wide selection to meet the unique needs of your projects. Our 
+                                commitment to quality is reflected in every sheet we deliver.</p>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <p>Experience seamless order fulfillment with our efficient distribution network. 
+                            Timely delivery, secure packaging, and reliable logistics are at the core of our 
+                            distribution services. We understand the importance of your timelines and ensure 
+                            that your paper rolls reach you on time, every time.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!--------------------services--------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Products and Services</h1>
+        <dic class="services-list">
+
+            <div class="products">
+                <i class="fa-solid fa-layer-group"></i>
+                <h2>Products</h2>
+                <p>Explore a spectrum of paper possibilities at PL Paper. Our diverse 
+                    range of premium paper products is meticulously crafted to meet the 
+                    unique demands of your projects. From standard sheets to specialty 
+                    textures, each roll tells a story of quality and precision. Discover 
+                    the artistry of paper with us</p>
+                    <a href="#">learn more</a>
+            </div>
+
+            <div class="wholeSale">
+                <i class="fa-solid fa-boxes-stacked"></i>                
+                <h2>Bulk and wholesale</h2>
+                <p>Simplify your procurement process with our Bulk and Wholesale services. 
+                    Whether you're a business seeking large quantities or a retailer looking 
+                    for competitive pricing, PL Paper is your trusted partner. Benefit from 
+                    volume discounts, dedicated support, and seamless transactions as you embark on 
+                    your bulk paper journey with us.</p>
+                    <a href="#">learn more</a>
+            </div>
+
+            <div class="distribution">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h2>Distribution</h2>                
+                <p>Experience the efficiency of reliable paper distribution at PL Paper. 
+                    Our commitment to timely deliveries, secure packaging, and streamlined 
+                    logistics ensures that your paper rolls reach you on schedule. Choose a distribution 
+                    partner that values your timelines as much as you do. Trust PL Paper for precision in 
+                    every delivery.</p>
+                    <a href="#">learn more</a>
+            </div>
+        </dic>
+    </div>
+</div>
+
+
+
+<!--------------------contact--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Us</h1>
+                <p><i class="fa-regular fa-envelope"></i>PLpaper@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0904176498</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+
+    <!--------------------footer--------------------->
+    <div class="footer">
+        <div class="container">
+            <h3>PL Paper Working PLC</h3>
+            <div class="row">
+                <div class="footer-col">
+                    <h4>PL Paper</h4>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="wholesale.html">Wholesale</a></li>
+                        <li><a href="distribution.html">Distribution</a></li>
+                        <li><a href="index.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get help</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Ordering</a></li>
+                        <li><a href="">Reviews</a></li>
+                <li><a href="">Bulk Packages</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Online shop</h4>
+            <ul>
+                <li><a href="">Precision Cut</a></li>
+                <li><a href="">Translucent </a></li>
+                <li><a href="">Vibrant</a></li>
+                <li><a href="">Premium Ivory</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+        <h4>Follow us</h4>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+                    
+                    
+    </div>
+                
+
+    </div>
+        <div class="copyright">
+            <p>copright©PLpaper.All rights reserved </p>
+        </div>
+    </div>
+
+</div>
+
+<main-footer></main-footer>
+<script type = module src= headerFooterManager.js ></script>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxdBZFCUi32DPWB7pDRvhvbrOqimXbz1nFecrvNl2oDt8NKC_kpj_FzqeteddQZKGF2iA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

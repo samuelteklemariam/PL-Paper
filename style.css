@@ -82,6 +82,7 @@ nav ul li a:hover::after {
 }
 
 .header-col-1 img {
+  padding-top: 25px;
   border-radius: 15px;
   flex-direction: right;
 }
@@ -453,6 +454,16 @@ nav .fa-solid {
   }
   .sub-title {
     font-size: 40px;
+  }
+  .header-text img{
+    display: none;
+  }
+  .header-col-1 img{
+    width: 80%;
+  }
+  .header-col-2{
+    padding-top: 20px;
+    margin-top: 20px;
   }
   .about-col-1,
   .about-col-2 {
